@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <nav className="flex items-center justify-between">
           <Link to="/" className="font-display text-xl font-semibold text-foreground hover:text-accent transition-colors">
-            Dr. Sarah Mitchell
+            Borja Martinovic, PhD
           </Link>
           
           <ul className="hidden md:flex items-center gap-8">

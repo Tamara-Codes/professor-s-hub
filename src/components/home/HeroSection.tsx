@@ -1,4 +1,4 @@
-import professorImage from "@/assets/professor-portrait.jpg";
+import professorImage from "@/assets/Borja.jpg";
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
               Professor of Computer Science
             </p>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight mb-6">
-              Dr. Sarah Mitchell
+              Borja Martinovic, PhD
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg">
               Exploring the frontiers of artificial intelligence and machine learning at Stanford University. 
@@ -37,7 +37,7 @@ const HeroSection = () => {
               <div className="absolute -inset-4 bg-accent/10 rounded-2xl -z-10" />
               <img
                 src={professorImage}
-                alt="Dr. Sarah Mitchell"
+                alt="Borja Martinovic, PhD"
                 className="w-full max-w-md mx-auto rounded-xl shadow-lg object-cover aspect-[4/5]"
               />
             </div>
